@@ -26,7 +26,73 @@
       </div>
     </div>
     <!-- /.header -->
-    <div class="main"></div>
+    <div class="main">
+        <!-- <form method="post" action=""> </form>-->
+            <!-- method post = 정보기록, get = 정보서칭 / action = 서버연결-->
+        <div class="join-type">
+            <table>
+                <!-- table = 표 -->
+                 <!-- tr = 행, th or td = 열 -->
+                <tr>
+                    <th>회원구분</th>
+                    <td>
+                        <label><input type= "radio" name="gubun" checked>개인회원</label>
+                        <label><input type= "radio"name ="gubun">사업자회원</label>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="basic-info">
+            <table>
+                <tr>
+                    <th>아이디</th>
+                    <td>
+                        <input type="text">
+                        <!-- input - text = 타이핑 가능 박스 -->
+                    </td>
+                </tr>
+                <tr>
+                    <th>비밀번호</th>
+                    <td>
+                        <input type="password">
+                    </td>
+                </tr>
+                <tr>
+                    <th>이름</th>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <th>연락처</th>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <th>sms 수신여부</th>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <th>이메일</th>
+                    <td>
+                        <input type="email">
+                    </td>
+                </tr>
+                <tr>
+                    <th>파일첨부</th>
+                    <td>
+                        <input type="file">
+                    </td>
+                    
+                </tr>
+            </table>
+            <input type="submit" value="가입">
+            <input type="reset" value="취소">
+        </div>
+    </div>
     <!-- /.main -->
     <div class="footer">
         <div class="submenu">
